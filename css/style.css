@@ -1,0 +1,281 @@
+meta @charset="UTF-8";
+@font-face {
+    @font-face { font-family: 'NanumBarunGothic';
+    src: url('fonts/NanumBarunGothic.eot');
+    src: url('fonts/NanumBarunGothic.eot') format('embedded-opentype'),
+    url('fonts/NanumBarunGothic.woff') format('woff');}
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'NanumBarunGothic', 'serif';
+}
+.clear{
+    clear: both;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.wrap{
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+header{
+    position: relative;
+    height: 140px;
+    background-color: #fff3f9;
+}
+header h1>a>img{
+    width: 240px;
+}
+.mainmenu{
+    position: absolute;
+    top: 90px;
+    right: 0px;
+    width: 800px;
+    height: 50px;
+}
+.mainmenu>li{
+    position: relative;
+    float: left;
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #fff3f9;
+    transition: all 0.4s;
+}
+.mainmenu>li:hover{
+    background-color: #E8D1E8;
+    cursor: pointer;
+    color: #fff;
+}
+.mainmenu>li>a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2{
+    color: #ff9064;
+    font-size: 36px;
+    margin: 12px 0px;
+}
+
+
+
+
+.section_relative{
+    position: relative;
+}
+.section_left{
+    position: absolute;
+    left: 0;
+}
+.section_right{
+    position: absolute;
+    right: 0;
+}
+.section_margin{
+    width: inherit;
+    height: 200px;
+}
+
+
+
+#infor{
+    width: inherit;
+    height: 1126px;
+    margin-top: 60px;
+}
+#infor_text{
+    margin-top: 40px;
+    width: 640px;
+}
+#infor_text>h3{
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+#work_infor{
+    background-color: #80194D;
+    margin: 40px 0px;
+}
+#work_infor img{
+    width: 600px;
+}
+#work_infor td{
+    text-align: center;
+    background-color: #fff;
+}
+#work_infor th{
+    color: #fff;
+    background-color: #FF3399;
+}
+#work_infor th>a{
+    display: block;
+}
+#work_infor th>a:hover{
+    background-color: #80194D;
+}
+#author_info{
+    width: 360px;
+    margin-top: 119px;
+    background-color: #403215;
+}
+#author_info th{
+    background-color: #FFC653;
+}
+#author_info td{
+    text-align: center;
+    background-color: #fff;
+}
+.link_list{
+    margin: 5px;
+}
+.link_list>li{
+    float: left;
+    margin-right: 5px;
+}
+.link_list img{
+    width: 30px;
+}
+
+
+
+.story{
+    width: inherit;
+    height: 350px;
+    margin-top: 15px;
+}
+.story_text{
+    margin: 25px 25px 25px 0px;
+}
+.story img{
+    width: 300px;
+    margin: 25px 0px 25px 25px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.35);
+}
+.story_text>h3{
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+.story_text>p{
+    width: 640px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+.LeeJunTak_Text{
+    color: #8f5153;
+}
+.YuHaYoung_Text{
+    color: #8a8cb3;
+}
+
+
+#character{
+    width: inherit;
+    height: 1700px;
+}
+.character_box{
+    width: 400px;
+    height: 727px;
+    float: left;
+    margin: 40px;
+    background-color: #eee;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.35);
+}
+.character_box>img{
+    width: 320px;
+    margin: 39px 39px 19px 39px;
+    border: solid 1px #333333;
+}
+.character_box_text{
+    margin: 20px 40px 40px 40px;
+    border-top: solid 1px #333333;
+    padding-top: 30px;
+}
+.character_box_text>h3{
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+.character_box_text>p{
+    font-size: 10.5px;
+    margin-bottom: 8px;
+}
+#hero{
+    margin: 30px 0px 45px -40px;
+    top: 0;
+}
+#villan{
+    margin: 45px -40px 30px 0px;
+    bottom: 0;
+}
+
+
+
+.gallery_ul{
+    margin: 40px 0px;
+}
+.gallery_ul>li{
+    float: left;
+    height: 320px;
+}
+.gallery_ul img{
+    width: 320px;
+}
+
+
+
+#footer{
+    height: 140px;
+    background-color: #fdc2d4;
+}
+#footer_text{
+    padding: 40px 0px;
+    float: left;
+}
+#footer_icon{
+    position: absolute;
+    right: 0px;
+    padding: 40px 0px;
+}
+#footer_icon>ul>li{
+    float: left;
+    margin: 0 5px;
+}
+#footer_icon>ul>li>a>img{
+    width: 50px;
+}
+
+
+#video>video{
+    margin: 40px 0px;
+}
+
+#remote{
+    position: fixed;
+    width: 120px;
+    right: 30px;
+    bottom: 150px;
+    z-index: 9;
+}
+#remote>ul>li{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+}
+#remote>ul>li>button{
+    display: block;
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: #ecc0c5;
+}
+#remote>ul>li>button:hover{
+    background-color: #6E595B;
+    color: #fff;
+    cursor: pointer;
+}
